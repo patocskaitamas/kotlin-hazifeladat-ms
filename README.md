@@ -16,7 +16,7 @@
 6. Tetszőleges deserialization library (Jackson konfigurálva)
 7. JUnit teszt framework
 8. Tetszőleges mock library (Mockk konfigurálva)
-9. Mindenki saját git branch-en dolgozzon és onnan nyújtson be pull request-et a master-re.
+9. Mindenki készítsen saját fork-ot a repository-ról és ott dolgozzon (innen tudom majd ellenőrizni)
 
 ## Szorgalmi feladat
 - Nem csak konzolra írni az eredményt, hanem az alkalmazás (egyszerű webszerver) egy html oldalon elérhetővé teszi azt.
