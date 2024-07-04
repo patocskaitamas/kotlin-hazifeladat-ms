@@ -4,8 +4,9 @@ import kotlin.test.Test
 
 class WeatherAppTest {
 
-    @Test fun `sikeres lekerdezes`() {
-        TODO()
+    @Test fun calculateAverageTemperature() {
+        //val weatherApp: WeatherApp = WeatherApp()
+        //weatherApp.calculateAverageTemperature()
     }
 
 }
