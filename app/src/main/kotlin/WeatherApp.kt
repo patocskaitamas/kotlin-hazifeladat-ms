@@ -17,7 +17,7 @@ class WeatherApp : CommandLineRunner {
 
         val service: ForecastService = factory.createClient(ForecastService::class.java)
         val forecastDto = service.getForecast(47.4984, 19.0404)
-        calculateAverageTemperature(forecastDto)
+        println(calculateAverageTemperature(forecastDto))
     }
 
     fun calculateAverageTemperature(forecastDto: ForecastDto) =
